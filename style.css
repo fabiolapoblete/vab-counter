@@ -12,7 +12,7 @@ body {
     justify-content: center;
     padding-top: 6.3rem;
     text-align: center;
-    background-color: aquamarine;
+    background-color: #e2e2e2;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 }
@@ -57,4 +57,10 @@ body {
 
 #reset-btn {
     background-color: #DB4437;
+}
+
+@media  screen and (max-width: 680px) {
+    h1, h2 {
+        font-size: 1rem;
+    }
 }
